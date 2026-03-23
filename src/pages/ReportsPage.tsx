@@ -4,6 +4,8 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { FileBarChart, Download } from "lucide-react";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line } from "recharts";
 import { useState } from "react";
+import jsPDF from "jspdf";
+import "jspdf-autotable";
 
 const monthlyYield = [
   { month: "Oct", value: 40 },
