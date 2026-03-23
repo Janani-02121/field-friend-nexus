@@ -99,7 +99,7 @@ export default function ReportsPage() {
               <SelectItem value="1year">1 Year</SelectItem>
             </SelectContent>
           </Select>
-          <Button variant="outline"><Download className="mr-2 h-4 w-4" />Export PDF</Button>
+          <Button variant="outline" onClick={handleExportPDF}><Download className="mr-2 h-4 w-4" />Export PDF</Button>
         </div>
       </div>
 
